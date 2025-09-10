@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clasificacion.xsl"?>
+<clasificaciones>
+    <clasificacion_conductores>
+        <conductor>
+            <posicion numero="01">01</posicion>
+            <nombre>Max VERSTAPPEN</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/21e3549261e205cd946d08f241dca7d3091eac5b.png</imagen>
+            <equipo>Red Bull Racing</equipo>
+            <puntos>437</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="02" >02</posicion>
+            <nombre>Lando NORRIS</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/8a60342cb9984ba1b81c10567fb3cd06dabca1cc.png</imagen>
+            <equipo>McLaren</equipo>
+            <puntos>374</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="03" >03</posicion>
+            <nombre>Charles LECLERC</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/488771a81fea33780815d457ba514b24a53d8ac1.png</imagen>
+            <equipo>Ferrari</equipo>
+            <puntos>356</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="04" >04</posicion>
+            <nombre>Oscar PIASTRI</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/ecc1048408f0fb531b34b78fcc708e060eb8f7aa.png</imagen>
+            <equipo>McLaren</equipo>
+            <puntos>292</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="05" >05</posicion>
+            <nombre>Carlos SAINZ</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/a48f5fbdd52dae185c5c59c3c27ca4edf4eca0c8.png</imagen>
+            <equipo>Ferrari</equipo>
+            <puntos>290</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="06" >06</posicion>
+            <nombre>George RUSSELL</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/8d17a1371b87a4c2c71057c045883d384a98a863.png</imagen>
+            <equipo>Mercedes</equipo>
+            <puntos>245</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="07" >07</posicion>
+            <nombre>Lewis HAMILTON</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/5703c367ec9e15dd1dd7aad14631ddd4d8f529ee.png</imagen>
+            <equipo>Mercedes</equipo>
+            <puntos>223</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="08" >08</posicion>
+            <nombre>Sergio PÉREZ</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/c5d170171b6e9844ae025a515a0add5cd6abb739.png</imagen>
+            <equipo>Red Bull Racing</equipo>
+            <puntos>152</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="09" >09</posicion>
+            <nombre>Fernando ALONSO</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/caf445a2322e84633eebe04de0b48b03832ceed9.png</imagen>
+            <equipo>Aston Martin</equipo>
+            <puntos>70</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="10" >10</posicion>
+            <nombre>Pierre GASLY</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/7a471935ba6b9e8a8676b1ef8c4a9bd9a943284b.png</imagen>
+            <equipo>BWT Alpine</equipo>
+            <puntos>42</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="03" color="#ee0000">03</posicion>
+            <nombre>Charles LECLERC</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/488771a81fea33780815d457ba514b24a53d8ac1.png</imagen>
+            <equipo>Ferrari</equipo>
+            <puntos>356</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="04" color="#FF8700">04</posicion>
+            <nombre>Oscar PIASTRI</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/ecc1048408f0fb531b34b78fcc708e060eb8f7aa.png</imagen>
+            <equipo>McLaren</equipo>
+            <puntos>292</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="05" color="#ee0000">05</posicion>
+            <nombre>Carlos SAINZ</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/a48f5fbdd52dae185c5c59c3c27ca4edf4eca0c8.png</imagen>
+            <equipo>Ferrari</equipo>
+            <puntos>290</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="06" color="#00cfba">06</posicion>
+            <nombre>George RUSSELL</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/8d17a1371b87a4c2c71057c045883d384a98a863.png</imagen>
+            <equipo>Mercedes</equipo>
+            <puntos>245</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="07" color="#00cfba">07</posicion>
+            <nombre>Lewis HAMILTON</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/5703c367ec9e15dd1dd7aad14631ddd4d8f529ee.png</imagen>
+            <equipo>Mercedes</equipo>
+            <puntos>223</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="08" color="#00017d">08</posicion>
+            <nombre>Sergio PÉREZ</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/c5d170171b6e9844ae025a515a0add5cd6abb739.png</imagen>
+            <equipo>Red Bull Racing</equipo>
+            <puntos>152</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="09" color="#F596C8">09</posicion>
+            <nombre>Fernando ALONSO</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/caf445a2322e84633eebe04de0b48b03832ceed9.png</imagen>
+            <equipo>Aston Martin</equipo>
+            <puntos>70</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="10" color="#ffd800">10</posicion>
+            <nombre>Pierre GASLY</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/7a471935ba6b9e8a8676b1ef8c4a9bd9a943284b.png</imagen>
+            <equipo>BWT Alpine</equipo>
+            <puntos>42</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="11" color="#000">11</posicion>
+            <nombre>Nico HÜLKENBERG</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/a029c3214fb639631818e4c63d21d5321720d771.png</imagen>
+            <equipo>Haas F1 Team</equipo>
+            <puntos>41</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="12" color="#FFF">12</posicion>
+            <nombre>Yuki TSUNODA</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/d5379b65dfc9f6e93561944a0fc6b0f6772f3270.png</imagen>
+            <equipo>Visa Cash App RB</equipo>
+            <puntos>30</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="13" color="#F596C8">13</posicion>
+            <nombre>Lance STROLL</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/e8a01624a358898520120b1961edeaf363906552.png</imagen>
+            <equipo>Aston Martin</equipo>
+            <puntos>24</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="14" color="#ffd800">14</posicion>
+            <nombre>Esteban OCON</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/98723ce5f1c1b90fa650bd34b374789e143acb63.png</imagen>
+            <equipo>BWT Alpine</equipo>
+            <puntos>23</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="15" color="#000">15</posicion>
+            <nombre>Kevin MAGNUSSEN</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/76106da6135a8d8eaa7d91ee3f2c32eca893ea32.png</imagen>
+            <equipo>Haas F1 Team</equipo>
+            <puntos>16</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="16" color="#FFFFFF">16</posicion>
+            <nombre>Alexander ALBON</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/4aaeb2e1dc1f7d7f2201a5ead904afe7769db727.png</imagen>
+            <equipo>Williams</equipo>
+            <puntos>12</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="17" color="#FFF">17</posicion>
+            <nombre>Daniel RICCIARDO</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/6bf81fd5253da04830dbe5a2a04d6bf6ebc13fc6.png</imagen>
+            <equipo>Visa Cash App RB</equipo>
+            <puntos>12</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="18" color="#000">18</posicion>
+            <nombre>Oliver BEARMAN</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/c5a84f1de5f75a6a99bcb348b8f75d523873a81b.png</imagen>
+            <equipo>Haas F1 Team</equipo>
+            <puntos>7</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="19" color="#FFFFFF">19</posicion>
+            <nombre>Franco COLAPINTO</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/e12cc2aa4042d28e840d3a54465ce6fdf4526d1e.png</imagen>
+            <equipo>Williams</equipo>
+            <puntos>5</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="20" color="#9B0000">20</posicion>
+            <nombre>Zhou GUANYU</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/941a153dd8bdcb164905f406b8b82a05877bb5bd.png</imagen>
+            <equipo>Stake F1 Team</equipo>
+            <puntos>4</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="21" color="#FFF">21</posicion>
+            <nombre>Liam LAWSON</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/b268ccd5a231fd86403fdc2583c43343c031f6a8.png</imagen>
+            <equipo>Visa Cash App RB</equipo>
+            <puntos>4</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="22" color="#9B0000">22</posicion>
+            <nombre>Valtteri BOTTAS</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/5b03ddb395fa48820e83b7045da7d1ff4a0b0160.png</imagen>
+            <equipo>Stake F1 Team</equipo>
+            <puntos>0</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="23" color="#FFFFFF">23</posicion>
+            <nombre>Logan SARGEANT</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/ce82275dbaef47127ba675b70c2ed019228cc1ba.png</imagen>
+            <equipo>Williams</equipo>
+            <puntos>0</puntos>
+        </conductor>
+        <conductor>
+            <posicion numero="24" color="#ffd800">24</posicion>
+            <nombre>Jack DOOHAN</nombre>
+            <imagen>https://sportsbase.io/images/gpfans/copy_92x92/243ca0ac5963b176333ab2f24bd783d28d4689a7.png</imagen>
+            <equipo>BWT Alpine</equipo>
+            <puntos>0</puntos>
+        </conductor>
+        
+        
+    </clasificacion_conductores>
+
+    <clasificacion_equipos>
+        <equipo>
+            <posicion>01</posicion>
+            <nombre>McLaren</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/af2fe3aec7a37746cee749f49f876688ea4910cb.png</logo>
+            <conductores>Lando Norris, Oscar Piastri</conductores>
+            <puntos>666</puntos>
+        </equipo>
+        
+        <equipo>
+            <posicion>02</posicion>
+            <nombre>Ferrari</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/8793dd7a84ef08200b9fa13c24fc64017559ece6.png</logo>
+            <conductores>Carlos Sainz, Charles Leclerc</conductores>
+            <puntos>652</puntos>
+        </equipo>
+    
+        <equipo>
+            <posicion>03</posicion>
+            <nombre>Red Bull Racing</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/029e08cf212f44993764bb6f20080b77910ea210.png</logo>
+            <conductores>Max Verstappen, Sergio Pérez</conductores>
+            <puntos>589</puntos>
+        </equipo>
+    
+        <equipo>
+            <posicion>04</posicion>
+            <nombre>Mercedes</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/001a7388d3f9fa800d3186652e88c55163ad6701.png</logo>
+            <conductores>Lewis Hamilton, George Russell</conductores>
+            <puntos>468</puntos>
+        </equipo>
+    
+        <equipo>
+            <posicion>05</posicion>
+            <nombre>Aston Martin</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/c47375b9388c12a800eadcfc28266d44b20418f2.png</logo>
+            <conductores>Fernando Alonso, Lance Stroll</conductores>
+            <puntos>94</puntos>
+        </equipo>
+    
+        <equipo>
+            <posicion>06</posicion>
+            <nombre>BWT Alpine</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/769a9fe7a20f28ba76408540d5cd81e9b4433a50.png</logo>
+            <conductores>Esteban Ocon, Pierre Gasly</conductores>
+            <puntos>65</puntos>
+        </equipo>
+    
+        <equipo>
+            <posicion>07</posicion>
+            <nombre>Haas F1 Team</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/4a622dd6ccad4ee2829b034cc174038492286cdf.png</logo>
+            <conductores>Nico Hülkenberg, Kevin Magnussen</conductores>
+            <puntos>58</puntos>
+        </equipo>
+    
+        <equipo>
+            <posicion>08</posicion>
+            <nombre>Visa Cash App RB</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/3a5451141d8fe88c6959a15a9ba7e6a2b59e142c.png</logo>
+            <conductores>Daniel Ricciardo, Yuki Tsunoda</conductores>
+            <puntos>46</puntos>
+        </equipo>
+    
+        <equipo>
+            <posicion>09</posicion>
+            <nombre>Williams</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/bb02ac9f6e29492755cecb2ac3a2ad59d7e87740.png</logo>
+            <conductores>Alexander Albon, Logan Sargeant</conductores>
+            <puntos>17</puntos>
+        </equipo>
+    
+        <equipo>
+            <posicion>10</posicion>
+            <nombre>Stake F1 Team</nombre>
+            <logo>https://sportsbase.io/images/gpfans/copy_92x92/dc39cf66919a1785b6f292cec46a499a8e515805.png</logo>
+            <conductores>Valtteri Bottas, Zhou Guanyu</conductores>
+            <puntos>4</puntos>
+        </equipo>
+    </clasificacion_equipos>
+</clasificaciones>

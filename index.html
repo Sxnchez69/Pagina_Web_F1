@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1</title>
+    <link rel="stylesheet" href="./Stylesheet.css">
+</head>
+<body>
+    <div id="contenedor-principal">
+        <!-- Sección de encabezado -->
+        <header id="encabezado">
+            <div id="logo">
+                <a href="index.html"><img id="logo" src="Logo F1 actual.jpg" alt="Logo F1" ></a>
+            </div>
+            <nav id="login-registro">
+                <div id="login"><a href="Registros\Login.html">Login</a></div>
+                
+                <div id="registro"><a href="Registros\Sing_up.html">Sign up</a></div>
+            </nav>
+        </header>
+
+        <!-- Sección de navegación -->
+        <nav id="navegacion">
+            <div><a href="Pilotos/Pilotos.html">Pilotos</a></div>
+            <div><a href="Circuitos/Circuitos.html">Circuitos</a></div>
+            <div><a href="Clasificacion/Clasificacion.html">Clasificación</a></div>
+            <div><a href="Constructores/Constructores.html">Constructores</a></div>
+            <!--<a href="Clasificacion constructores.html"></a>-->
+        </nav>
+
+        <div class="slider-box">
+            <ul>
+                <li>
+                    <img id="img1" src="carrusel_img/brazil.jpg" />
+                </li>
+                <li>
+                    <img src="carrusel_img/loevs.jpg"/>
+                </li>
+                <li>
+                    <img src="carrusel_img/senna-vs-mansell (1).jpg"/>
+                </li>
+                <li>
+                    <img src="carrusel_img/suzuka_salida.jpg"/>
+                </li>
+
+            </ul>
+        </div>
+
+
+
+            <h1 id="contador">Inicio de temporada</h1>
+            <h2 id="contador">Melbourne</h2>
+        <div class="countdown" id="countdown">
+            <div class="time-box">
+                <span id="days">0</span><p>Días</p>
+            </div>
+            <div class="time-box">
+                <span id="hours">0</span><p>Horas</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes">0</span><p>Minutos</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds">0</span><p>Segundos</p>
+            </div>
+    </div>
+
+  <script>
+    // Fecha y hora objetivo (reemplázala con la que necesites)
+    const targetDate = new Date("2025-03-14T12:13:05").getTime();
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const timeLeft = targetDate - now;
+
+      // Calcular días, horas, minutos y segundos restantes
+      const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+      // Actualizar el contenido de los elementos
+      document.getElementById("days").textContent = days;
+      document.getElementById("hours").textContent = hours;
+      document.getElementById("minutes").textContent = minutes;
+      document.getElementById("seconds").textContent = seconds;
+
+      // Detener la cuenta regresiva si se llega al tiempo objetivo
+      if (timeLeft <= 0) {
+        clearInterval(countdownInterval);
+        document.getElementById("countdown").innerHTML = "<h2>¡El momento ha llegado!</h2>";
+      }
+    }
+
+    // Actualizar cada segundo
+    const countdownInterval = setInterval(updateCountdown, 1000);
+
+    // Inicializar al cargar la página
+    updateCountdown();
+  </script>
+
+
+
+        
+        <div class="main-container">
+            <div class="news-container">
+                <a href="./Circuitos/Circuitos.html"> <div class="news-card">
+                    <img src="img/Montmeló.jpg" alt="Circuitos" class="news-image">
+                    <div class="news-content">
+                        <h2 class="news-title">CIRCUITOS</h2>
+                        <p class="news-description">Todos los circuitos presentados para este 2025</p>
+                    </div>
+                </div></a>
+            
+                
+                    <a href="./Pilotos/Pilotos.html">
+                        <div class="news-card">
+                        <img src="img/Fernando Alonso.jpg" alt="Pilotos" class="news-image">
+                        <div class="news-content">
+                            <h2 class="news-title">PILOTOS</h2>
+                            <p class="news-description">Biografia de los pilotos que compiten en la F1 </p>
+                        </div>
+                    </div></a>
+                    
+                
+                
+                    <a href="./Terminologia/Terminologia.html">
+                        <div class="news-card">
+                        <img src="Circuitos/img_circuito/Spain.png" alt="Terminos" class="news-image">
+                        <div class="news-content">
+                            <h2 class="news-title">TERMINOLOGIA</h2>
+                            <p class="news-description">¿Conoces todos los terminos de la F1?</p>
+                        </div>
+                    </div></a>
+                    
+               
+                
+                    <a href="./Clasificacion/Clasificacion.html">
+                        <div class="news-card">
+                        <img src="img/mundialConstructores.avif" alt="Clasificacion" class="news-image">
+                        <div class="news-content">
+                            <h2 class="news-title">CLASIFICACIONES 2024</h2>
+                            <p class="news-description">¿Como quedo tu equipo y piloto favorito en 2024?</p>
+                        </div>
+                    </div></a>
+                    
+                
+            </div>
+            <div class="video-container">
+                
+                <div class="video-box">
+                    <iframe class="video-iframe" src="https://www.youtube.com/embed/m0vNvKVDS7U?si=fQ8-h3QNZSvbAQWV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="video-content">
+                        <h2 class="video-title">FERNANDO ALONSO</h2>
+                        <p class="video-description">Increibles adelantamientos de FERNANDO ALONSO</p>
+                    </div>
+                </div>
+                
+                <div class="video-box2">
+                    <div class="video-video">
+                        <iframe class="video-iframe2" src="https://www.youtube.com/embed/8AYy-BcjRXg?si=lh_TSiE3iFxp-c7c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    
+                    <div class="video-video">
+                        <iframe class="video-iframe2" src="https://www.youtube.com/embed/oeJF55Qphdk?si=LX6yB0OkLCBmqKeJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>                
+            
+            </div>
+        </div>    
+        
+        <br>
+        <iframe style="border:0" src="ganadores.xml" width="100%" height="500px"></iframe>
+        
+        <div class="final">
+            <div class="easter_egg"><a href="easter_egg/easter_egg.html"><img alt="Formula 1" src="https://media.formula1.com/image/upload/f_auto,c_limit,w_126,q_auto/etc/designs/fom-website/images/f1_global_footer_logo" pinger-seen="true"></a><p class="frase">© 2003-2025 Formula One World Championship Limited</p></div>
+        </div>
+        
+
+        
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ganadores.xsl"?>
+<!DOCTYPE ganadores SYSTEM "ganadores.dtd">
+<ganadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="ganadores.xsd">
+
+    <ganador>
+        <año>2024</año>
+        <nombre>Max Verstappen</nombre>
+        <imagen>./img/verstappen.avif</imagen>
+    </ganador>
+    <ganador>
+        <año>2023</año>
+        <nombre>Fernando Alonso</nombre>
+        <imagen>easter_egg\img\fernando_Virgen.jpeg</imagen>
+    </ganador>
+    <ganador>
+        <año>2022</año>
+        <nombre>Max Verstappen</nombre>
+        <imagen>./img/verstappen.avif</imagen>
+    </ganador>
+    <ganador>
+        <año>2021</año>
+        <nombre>Max Verstappen</nombre>
+        <imagen>./img/verstappen.avif</imagen>
+    </ganador>
+    <ganador>
+        <año>2020</año>
+        <nombre>Lewis Hamilton</nombre>
+        <imagen>./img/hamilton.avif</imagen>
+    </ganador>
+</ganadores>

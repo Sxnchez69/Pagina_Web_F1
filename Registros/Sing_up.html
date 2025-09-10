@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing up</title>
+    <link rel="stylesheet" href="registro.css"> <!-- Archivo CSS exclusivo para Registro -->
+</head>
+<body>
+    <header id="encabezado-registro">
+        <a href="..\index.html"><img src="..\Logo F1 actual.jpg" alt="Logo F1" width="500"></a>
+    </header>
+    <form id="formulario-registro" name="registro">
+        <fieldset>
+            <legend>Registro</legend>
+            <label for="nombre-registro">
+               <p>Nombre</p> 
+                <input type="text" id="nombre-registro" name="nombre" required>
+            </label>
+            <label for="apellidos-registro">
+               <p>Apellidos</p> 
+                <input type="text" id="apellidos-registro" name="apellidos" required>
+            </label>
+            <label for="correo-registro">
+               <p>Correo electrónico</p> 
+                <input type="email" id="correo-registro" name="correo" required>
+            </label>
+            <label for="contraseña-registro">
+               <p>Contraseña</p> 
+                <input type="password" id="contraseña-registro" name="contraseña" required>
+            </label>
+            <label for="repetir-contraseña">
+               <p>Repetir contraseña</p> 
+                <input type="password" id="repetir-contraseña" name="repetir-contraseña" required>
+            </label>
+            
+            <input type="submit" id="boton-enviar-registro" name="enviar" value="Registrarse">
+            <input type="reset" id="boton-borrar-registro" name="borrar" value="Borrar">
+        </fieldset>
+    </form>
+    <p id="login-link">¿Ya tienes cuenta? <a href="Login.html">Inicia sesión</a></p>
+</body>
+</html>

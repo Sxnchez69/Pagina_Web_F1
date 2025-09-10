@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css"> <!-- Archivo CSS exclusivo para Login -->
+</head>
+<body>
+    <header id="encabezado-login">
+        <a href="..\index.html"><img src="..\Logo F1 actual.jpg" alt="Logo F1" width="500"></a>
+    </header>
+    <form id="formulario-login" name="inicio-sesion">
+        <fieldset>
+            <legend>Iniciar sesión</legend>
+            <label for="correo-login">
+               <p>Correo electrónico:</p> 
+                <input type="email" id="correo-login" name="correo" required>
+            </label>
+            
+            <label for="contraseña-login">
+               <p>Contraseña:</p> 
+                <input type="password" id="contraseña-login" name="contraseña" required>
+            </label>
+            
+            <input type="submit" id="boton-enviar-login" name="enviar" value="Iniciar sesión">
+        </fieldset>
+    </form>
+    <p id="registro-link">¿No tienes cuenta todavía? <a href="Sing_up.html">Regístrate</a></p>
+</body>
+</html>

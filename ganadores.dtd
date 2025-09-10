@@ -1,0 +1,5 @@
+<!ELEMENT ganadores (ganador+)>
+<!ELEMENT ganador (año, nombre, imagen)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
